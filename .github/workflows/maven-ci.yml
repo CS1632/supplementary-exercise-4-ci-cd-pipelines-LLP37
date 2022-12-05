@@ -54,6 +54,7 @@ jobs:
   update_dependence_graph:
 
     needs: [maven_test] #Enforces that maven test runs first
+    
     runs-on: ubuntu-latest
 
     permissions:
